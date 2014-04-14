@@ -37,5 +37,9 @@ Installation instaration on Unix/Linux systems.
 Since django suits offers a limited option when it comes to menu icons, a simple hack was implemented to add more options.
 
 FontAwesome.io was injected to the `suits.css` file fount at `<pythonX.X>/site-packages/suit/static/suit/css/suit.css`
+and add this line `@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);`
 
-Note this hack will be lost on update, 
+>> __Note__ 
+>> You need to do this hack manually, at least for now.
+>> Otherwise custom menu icons wont show. 
+>>
