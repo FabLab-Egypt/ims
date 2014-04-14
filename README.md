@@ -39,6 +39,8 @@ Since django suits offers a limited option when it comes to menu icons, a simple
 FontAwesome.io was injected to the `suits.css` file fount at `<pythonX.X>/site-packages/suit/static/suit/css/suit.css`
 and add this line `@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);`
 
+Then find `.left-nav>ul>li.active>a i` at line# `235:761` and comment the `background-image:` rule. 
+
 >> __Note__ 
 >> You need to do this hack manually, at least for now.
 >> Otherwise custom menu icons wont show. 
