@@ -96,6 +96,7 @@ SUIT_CONFIG = {
     'ADMIN_NAME': 'Fab Lab Egypt',
     # 'MENU': ( {'app': 'community', 'icon':'icon-lock'}, )
     'MENU_ICONS': {
+        'auth': 'fa fa-lock', 
         'community': 'fa fa-users',
     },
 }
